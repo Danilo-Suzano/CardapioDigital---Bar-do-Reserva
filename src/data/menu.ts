@@ -87,12 +87,12 @@ export const menuData: Category[] = [
     id: 'caldos',
     name: 'Caldos',
     items: [
-      { id: 'caldo-1', name: 'Batata Baroa', price: 30 },
-      { id: 'caldo-2', name: 'Aipim', price: 30 },
-      { id: 'caldo-3', name: 'Canjiquinha', price: 30 },
-      { id: 'caldo-4', name: 'Caldo Verde', price: 30 },
-      { id: 'caldo-5', name: 'Abóbora com Carne Seca', price: 35 },
-      { id: 'caldo-6', name: 'Bobó de Camarão', price: 35 },
+      { id: 'caldo-1', name: 'Batata Baroa', price: 30, image: '/BatataBaroa.png' },
+      { id: 'caldo-2', name: 'Aipim', price: 30, image: '/Aipim.png' },
+      { id: 'caldo-3', name: 'Canjiquinha', price: 30, image: '/Canjiquinha.png' },
+      { id: 'caldo-4', name: 'Caldo Verde', price: 30, image: '/CaldoVerde.png' },
+      { id: 'caldo-5', name: 'Abóbora com Carne Seca', price: 35, image: '/AboboracomCarneSeca.png' },
+      { id: 'caldo-6', name: 'Bobó de Camarão', price: 35, image: '/BobodeCamarao.png' },
     ],
   },
   {

@@ -67,12 +67,12 @@ export const menuData: Category[] = [
     items: [
       { id: 'prato-1', name: 'Porção de Arroz', price: 10 },
       { id: 'prato-2', name: 'Porção de Feijão', price: 10 },
-      { id: 'prato-3', name: 'Frango à Milanesa', price: 30 },
-      { id: 'prato-4', name: 'Frango à Parmegiana', price: 30 },
-      { id: 'prato-5', name: 'Filé Mignon à Parmegiana', price: 35 },
-      { id: 'prato-6', name: 'Filé de Peixe à Parmegiana', price: 35 },
-      { id: 'prato-7', name: 'Filé de Peixe à Belle Meunière', price: 110 },
-      { id: 'prato-8', name: 'Linguado com Camarão', price: 120 },
+      { id: 'prato-3', name: 'Frango à Milanesa', price: 30, image: '/FrangoaMilanesa.png' },
+      { id: 'prato-4', name: 'Frango à Parmegiana', price: 30, image: '/FrangoaParmegiana.png' },
+      { id: 'prato-5', name: 'Filé Mignon à Parmegiana', price: 35, image: '/FileMignonaParmegiana.png' },
+      { id: 'prato-6', name: 'Filé de Peixe à Parmegiana', price: 35, image: '/FiledePeixeaParmegiana.png' },
+      { id: 'prato-7', name: 'Filé de Peixe à Belle Meunière', price: 110, image: '/FiledePeixeaBelleMeuniere.png' },
+      { id: 'prato-8', name: 'Linguado com Camarão', price: 120, image: '/LinguadocomCamarao.png' },
     ],
   },
   {

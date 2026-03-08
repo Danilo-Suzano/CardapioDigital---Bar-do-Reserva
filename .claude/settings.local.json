@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mv CLAUDE.md ../CLAUDE.md.bak)",
+      "Bash(npm create vite@latest . -- --template react-ts)",
+      "Bash(mv ../CLAUDE.md.bak CLAUDE.md)"
+    ]
+  }
+}

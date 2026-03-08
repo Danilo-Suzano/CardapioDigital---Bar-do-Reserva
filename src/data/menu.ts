@@ -65,8 +65,8 @@ export const menuData: Category[] = [
     id: 'pratos',
     name: 'Pratos / Almoço',
     items: [
-      { id: 'prato-1', name: 'Porção de Arroz', price: 10 },
-      { id: 'prato-2', name: 'Porção de Feijão', price: 10 },
+      { id: 'prato-1', name: 'Porção de Arroz', price: 10, image: '/PorcaodeArroz.png' },
+      { id: 'prato-2', name: 'Porção de Feijão', price: 10, image: '/PorcaodeFeijao.png' },
       { id: 'prato-3', name: 'Frango à Milanesa', price: 30, image: '/FrangoaMilanesa.png' },
       { id: 'prato-4', name: 'Frango à Parmegiana', price: 30, image: '/FrangoaParmegiana.png' },
       { id: 'prato-5', name: 'Filé Mignon à Parmegiana', price: 35, image: '/FileMignonaParmegiana.png' },

@@ -24,12 +24,21 @@ export function MenuCategory({ category }: MenuCategoryProps) {
         {category.items.map((item) => (
           <div
             key={item.id}
-            className="px-6 py-4 flex justify-between items-center hover:bg-amber-50 transition-colors"
+            className="px-4 py-3 flex items-center gap-4 hover:bg-amber-50 transition-colors"
           >
-            <span className="text-gray-800 font-medium">{item.name}</span>
-            <span className="text-amber-700 font-bold text-lg">
-              {formatPrice(item.price)}
-            </span>
+            {item.image && (
+              <img
+                src={item.image}
+                alt={item.name}
+                className="w-16 h-16 rounded-lg object-cover"
+              />
+            )}
+            <div className="flex-1 flex justify-between items-center">
+              <span className="text-gray-800 font-medium">{item.name}</span>
+              <span className="text-amber-700 font-bold text-lg">
+                {formatPrice(item.price)}
+              </span>
+            </div>
           </div>
         ))}
       </div>

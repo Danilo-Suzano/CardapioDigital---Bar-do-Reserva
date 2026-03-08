@@ -2,6 +2,7 @@ export interface MenuItem {
   id: string
   name: string
   price: number
+  image?: string
 }
 
 export interface Category {
@@ -15,22 +16,22 @@ export const menuData: Category[] = [
     id: 'files',
     name: 'Filés',
     items: [
-      { id: 'file-1', name: 'Filé de Pão', price: 30 },
-      { id: 'file-2', name: 'Filé Mignon', price: 100 },
-      { id: 'file-3', name: 'Filé com Fritas', price: 130 },
-      { id: 'file-4', name: 'Filé c/ Gorgonzola', price: 130 },
-      { id: 'file-5', name: 'Filé c/ Fritas e Linguiça', price: 150 },
-      { id: 'file-6', name: 'Meio Filé com Fritas e Linguiça', price: 80 },
+      { id: 'file-1', name: 'Filé de Pão', price: 30, image: '/filedepao.png' },
+      { id: 'file-2', name: 'Filé Mignon', price: 100, image: '/filemignon.png' },
+      { id: 'file-3', name: 'Filé com Fritas', price: 130, image: '/filecomfritas.png' },
+      { id: 'file-4', name: 'Filé c/ Gorgonzola', price: 130, image: '/filecgorgonzola.png' },
+      { id: 'file-5', name: 'Filé c/ Fritas e Linguiça', price: 150, image: '/filecfritaselinguica.png' },
+      { id: 'file-6', name: 'Meio Filé com Fritas e Linguiça', price: 80, image: '/meiofilecfritaselinguica.png' },
     ],
   },
   {
     id: 'peixes',
     name: 'Peixes',
     items: [
-      { id: 'peixe-1', name: 'Meia Isca de Peixe', price: 35 },
-      { id: 'peixe-2', name: 'Meio Peixe com Batata', price: 40 },
-      { id: 'peixe-3', name: 'Isca de Peixe', price: 60 },
-      { id: 'peixe-4', name: 'Peixe c/ Batata', price: 70 },
+      { id: 'peixe-1', name: 'Meia Isca de Peixe', price: 35, image: '/MeiaIscadePeixe.png' },
+      { id: 'peixe-2', name: 'Meio Peixe com Batata', price: 40, image: '/MeioPeixecomBatata.png' },
+      { id: 'peixe-3', name: 'Isca de Peixe', price: 60, image: '/IscadePeixe.png' },
+      { id: 'peixe-4', name: 'Peixe c/ Batata', price: 70, image: '/PeixecBatata.png' },
     ],
   },
   {
@@ -78,8 +79,8 @@ export const menuData: Category[] = [
     id: 'aipim',
     name: 'Aipim',
     items: [
-      { id: 'aipim-1', name: 'Aipim c/ Bacon', price: 0 },
-      { id: 'aipim-2', name: 'Aipim c/ Linguiça', price: 0 },
+      { id: 'aipim-1', name: 'Aipim c/ Bacon', price: 35 },
+      { id: 'aipim-2', name: 'Aipim c/ Linguiça', price: 30 },
     ],
   },
   {

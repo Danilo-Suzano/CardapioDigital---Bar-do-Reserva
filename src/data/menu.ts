@@ -39,12 +39,12 @@ export const menuData: Category[] = [
     name: 'Frango',
     items: [
       { id: 'frango-1', name: 'Meia Isca de Frango', price: 25 },
-      { id: 'frango-2', name: 'Frango à Passarinho', price: 45 },
-      { id: 'frango-3', name: 'Frango Frito', price: 45 },
-      { id: 'frango-4', name: 'Frango na Chapa', price: 45 },
-      { id: 'frango-5', name: 'Frango c/ Bacon e Catupiry', price: 55 },
-      { id: 'frango-6', name: 'Frango c/ Bacon e Cheddar', price: 55 },
-      { id: 'frango-7', name: 'Frango c/ Fritas', price: 55 },
+      { id: 'frango-2', name: 'Frango à Passarinho', price: 45, image: '/FrangoaPassarinho.png' },
+      { id: 'frango-3', name: 'Frango Frito', price: 45, image: '/FrangoFrito.png' },
+      { id: 'frango-4', name: 'Frango na Chapa', price: 45, image: '/FrangonaChapa.png' },
+      { id: 'frango-5', name: 'Frango c/ Bacon e Catupiry', price: 55, image: '/FrangocBaconeCatupiry.png' },
+      { id: 'frango-6', name: 'Frango c/ Bacon e Cheddar', price: 55, image: '/FrangocBaconeCheddar.png' },
+      { id: 'frango-7', name: 'Frango c/ Fritas', price: 55, image: '/FrangocFritas.png' },
     ],
   },
   {

@@ -79,8 +79,8 @@ export const menuData: Category[] = [
     id: 'aipim',
     name: 'Aipim',
     items: [
-      { id: 'aipim-1', name: 'Aipim c/ Bacon', price: 35 },
-      { id: 'aipim-2', name: 'Aipim c/ Linguiça', price: 30 },
+      { id: 'aipim-1', name: 'Aipim c/ Bacon', price: 35, image: '/AipimcBacon.png' },
+      { id: 'aipim-2', name: 'Aipim c/ Linguiça', price: 30, image: '/AipimcLinguica.png' },
     ],
   },
   {
